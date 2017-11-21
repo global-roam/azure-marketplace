@@ -50,6 +50,9 @@
     },
     "5.6.3": {
       "kibana": "5.6.3"
+    },
+    "6.0.0": {
+      "kibana": "6.0.0"
     }
   },
   "numberOfDataNodes" : 50,
@@ -116,10 +119,24 @@
     ["Standard_F2s", 4, "Premium", false],
     ["Standard_F4s", 8, "Premium", false],
     ["Standard_F8s", 16, "Premium", false],
-    ["Standard_F16s", 32, "Premium", false]
+    ["Standard_F16s", 32, "Premium", false],
+
+    ["Standard_E2_V3", 4, "Premium", true],
+    ["Standard_E4_V3", 8, "Premium", true],
+    ["Standard_E8_V3", 16, "Premium", true],
+    ["Standard_E16_V3", 32, "Premium", true],
+    ["Standard_E32_V3", 32, "Premium", true],
+    ["Standard_E64_V3", 32, "Premium", true],
+
+    ["Standard_E2s_V3", 4, "Premium", true],
+    ["Standard_E4s_V3", 8, "Premium", true],
+    ["Standard_E8s_V3", 16, "Premium", true],
+    ["Standard_E16s_V3", 32, "Premium", true],
+    ["Standard_E32s_V3", 32, "Premium", true],
+    ["Standard_E64s_V3", 32, "Premium", true]
   ],
   "ignoredVmsBecauseWeHaveNo32DisksResource" : [
-    "D14", "D5_v2", "D14_v2", "DS14", "DS5_v2", "DS14_v2"
+    "D14", "D5_v2", "D14_v2", "DS14", "DS5_v2", "DS14_v2", "F16", "F16s", "E16_V3", "E32_V3", "E64_V3","E16s_V3", "E32s_V3", "E64s_V3"
   ],
   "ignoredVmsBecauseWeHaveNo40DisksResource" : [
     "D15_v2", "DS15_v2"
